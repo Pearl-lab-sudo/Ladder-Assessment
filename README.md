@@ -3,7 +3,7 @@
 **This project is a data analytics assessment for Ladder. It involves analyzing transactional data from a database, processing and cleaning records, generating summary insights, and performing cohort analysis. All outputs were generated using Python (with Pandas, SQLAlchemy, dotenv, argparse) and PostgreSQL.**
 
 ## Assessment Context
-The task involved analyzing customer transaction data from a specified database to generate insights for the product and finance teams. Requirements included extracting only successful transactions, applying business rules (e.g., breakage fees, metadata handling), calculating cash flow metrics, and exporting a final proccessed csv file using Python and SQL.
+The task involved analyzing customer transaction data from a specified database to generate insights for the product and finance teams. Requirements included extracting only successful transactions, applying business rules (e.g., breakage fees, metadata handling), calculating cash flow metrics, and exporting a final processed csv file using Python and SQL.
 
 ## Project Objectives From Instructions
 - Write a comprehensive SQL query to extract relevant transaction data, including these fields: `Date of First Transaction`, `Transaction Cohort`, `USD Amount`, `Week Number of Transaction`, `GHS Amount`, `Sign-Up Date`, `Exchange Rate`, `KYC Completed Date`, `Sign-Up Cohort`, `KYC Cohort`, `Investment Type` (eg. "savings", "investment"), `Maturity Date`, `Transaction Date`, `Customer Name`, `Customer ID`, `Asset Type`, `Transaction Type` & `Transaction ID`.
@@ -93,7 +93,7 @@ python index.py
    Cleaned and joined transaction data across multiple tables.
 
 - `final_transaction_summary_report_<timestamp>.csv`
-   Summary metrics such as total transaction, Total investments and savings, and Ttal sign_ups.
+   Summary metrics such as total transaction, Total investments and savings, and Total sign-ups.
 
 - `final_transaction_cohort_analysis_<timestamp>.csv`
    Cohort analysis table showing transaction_cohort details.
